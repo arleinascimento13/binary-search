@@ -3,7 +3,7 @@ function sendForm(event) {
 
   const vetorNumber = document.querySelector("#input1").value;
   const target = Number(document.querySelector("#input2").value);
-  if (target > vetor) {
+  if (target > vetorNumber) {
     alert("target value can't be higher than vector length");
   }
   let vetor = convertNumberToArray(vetorNumber);
