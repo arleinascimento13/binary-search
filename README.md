@@ -33,3 +33,9 @@ This project implements a binary search algorithm using HTML and JavaScript. The
 - Enter the number whose position you want to know in the second input field.
 - Click the "Submit" button.
 - An alert will display the index of the number in the vector or an error message if the number is out of bounds.
+
+#### BIG-O Notation
+- Using the concepts of BIG O Notation to calculate the complexity of an algorithm:
+- For the function mentioned in the code of this repository: The algorithm visits each element of the array once.
+- If the array has 10 elements, the algorithm performs 10 operations.
+- f(n) = O(n)
